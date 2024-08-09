@@ -1,0 +1,171 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[6].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[6].rules[1].use[1]!./src/styles.scss?ngGlobalStyle ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap);
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[6].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[6].rules[1].use[1]!./src/styles.scss?ngGlobalStyle (1) ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f0f3f9;
+  position: relative;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.t-bg-accent-color {
+  background-color: #6ac7cc;
+}
+
+body.dark-mode,
+body.dark-mode .player-bar {
+  background-color: #181818;
+  color: #ffffff;
+}
+
+body.dark-mode .svg {
+  filter: invert(1);
+}
+
+body.dark-mode .t-color {
+  color: #ffffff;
+}
+
+body.light-mode .t-color {
+  color: #000000;
+}
+
+body.dark-mode .t-bg-color {
+  background-color: #ffffff;
+}
+
+body.light-mode .t-bg-color {
+  background-color: #000000;
+}
+
+body.dark-mode a,
+body.dark-mode p,
+body.dark-mode h1,
+body.dark-mode h3 {
+  color: #ffffff !important;
+}
+
+body.light-mode,
+body.light-mode .player-bar {
+  background-color: #f0f3f9;
+  color: #2d3436;
+}
+
+body:not(.dark-mode-preloading) {
+  transition: all 0.3s linear;
+}
+
+.greyTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #687490;
+  letter-spacing: 5px;
+}
+
+.title {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  color: #687490;
+  letter-spacing: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6ac7cc;
+  outline: 1px solid #3d9da3;
+  border-radius: 10px;
+}
+
+.suggestions,
+.albums-list,
+.global50,
+.artists-list,
+.recent {
+  display: grid;
+  gap: 15px;
+}
+
+.suggestions,
+.global50,
+.artists-list,
+.recent {
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 1200px) {
+  .suggestions,
+  .albums-list,
+  .global50,
+  .artists-list,
+  .recent {
+    grid-template-columns: repeat(4, auto);
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .suggestions,
+  .albums-list,
+  .global50,
+  .artists-list,
+  .recent {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .suggestions,
+  .albums-list,
+  .global50,
+  .artists-list,
+  .recent {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media screen and (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 0;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+  }
+  .suggestions,
+  .albums-list,
+  .global50,
+  .artists-list,
+  .recent {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .suggestions,
+  .albums-list,
+  .global50,
+  .artists-list,
+  .recent {
+    grid-template-columns: repeat(4, auto);
+  }
+}
+@media screen and (max-width: 430px) {
+  .suggestions,
+  .albums-list,
+  .global50,
+  .artists-list,
+  .recent {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map*/
